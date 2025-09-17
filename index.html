@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Un mensaje para ti</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Georgia", serif;
+      background: linear-gradient(135deg, #f7f3f0, #e8e2dd);
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 800px;
+      background: #ffffffd9;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      backdrop-filter: blur(5px);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      color: #5a3e36;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 18px;
+      text-align: justify;
+    }
+
+    .firma {
+      margin-top: 30px;
+      text-align: right;
+      font-style: italic;
+      color: #555;
+    }
+
+    /* Animación sutil al cargar */
+    .container {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: aparecer 1.5s ease forwards;
+    }
+
+    @keyframes aparecer {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Un mensaje sincero</h1>
+    <p>Aunque me arranques los años y me niegues tus manos, aquí sigo, remando en silencio sobre un lago de espejos grises, llevando tu nombre como faro, aunque nunca me esperes en la orilla.</p>
+
+    <p>Te conocí hace apenas un par de meses, y desde el inicio hubo algo especial: una química única, una fluidez tan natural para reír, divertirnos y compartir tiempo, me encantó saber de Fiona y Wilson (aunque no lo dejes tener novia), tus mascotas; me encantó ser recibido en tu hogar con tanta calidez, convivir con tus hermanos y primas, en especial con Max, el poderoso chencho, con quien terminé compartiendo bromas y apodos como si fuéramos amigos de años, todo eso me marcó, porque no solo conocí a una chica hermosa, también conocí a una persona con un corazón bellísimo y una risa espectacular.</p>
+
+    <p>Sé que desde el principio dejaste claro que pues no querrías algo por nuestros tiempos y demás, sabes, y aunque intenté verte como amiga, no pude. Mis ojos siempre encontraron en ti algo más, admiro tu esfuerzo diario, tu dedicación a la escuela y tu empeño en tu futuro, me sentí feliz de compartir momentos tan sencillos pero valiosos, como ir juntos al estreno de esa película que tanto esperábamos.</p>
+
+    <p>Pero el cariño no siempre exige retorno. A veces basta con sentirlo arder, contemplar cómo ilumina por dentro aunque afuera reine la calma helada, y yo he aprendido que también se quiere soltando, que también se cuida alejándose.</p>
+
+    <p>Por eso debo dar un paso atrás, no porque no valore lo que convivimos, sino porque no he podido verte solo como una amiga. Y por mi bien, me toca distanciarme.</p>
+
+    <p>Ojalá, en el futuro, encuentres a alguien que logre conectar contigo de una manera increíble, que admire cada una de tus cualidades tan asombrosas, así jamás permitiendo aceptar lo mínimo.</p>
+
+    <div class="firma">Con cariño,<br>Yo</div>
+  </div>
+</body>
+</html>
